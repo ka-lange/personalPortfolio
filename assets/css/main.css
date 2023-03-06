@@ -1307,6 +1307,69 @@ input, select, textarea {
 .aboutButton{
 	
 }
+.workHeading{
+	text-align: center;
+	margin: 1em 0;
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: #234c5a;
+	color: #234c5a;
+}
+
+.workContainer {
+	position: relative;
+	width: 50%;
+	cursor:default;
+  }
+
+  /* For overlay on work page */
+  .workImage {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	cursor: default;
+  }
+
+  .workOverlay {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .workContainer:hover .workImage {
+	filter:brightness(0.3);
+	opacity: 0.3;
+  }
+  
+  .workContainer:hover .workOverlay {
+	opacity: 1;
+  }
+  .workOverlayText{
+	color: #234c5a;
+	font-size: 20px;
+	font-weight: bold;
+  }
+  .workOverlayLink {
+	border: 1px solid #45798b;
+	color: white;
+	text-decoration: none;
+	background-color: #45798b;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 0;
+	margin: 5px;
+  }
 
 /* Basic */
 
@@ -1596,7 +1659,19 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
-
+.videoContainer{
+	position: relative;
+	padding-bottom:100%;
+	height: 0;
+	
+}
+.videoContainer iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 /* Button */
 
 	input[type="button"],
