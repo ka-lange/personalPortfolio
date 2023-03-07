@@ -1387,8 +1387,7 @@ input, select, textarea {
 	color: white;
 	text-decoration: none;
 	background-color: #45798b;
-	font-size: 16px;
-	font-weight: bold;
+	font-size: 20px;
 	padding: 10px;
 	margin: 5px;
   }
@@ -1406,6 +1405,9 @@ input, select, textarea {
 	border-width: 0 2px 0 0;
 	margin: 0 5px;
 	padding: 0 5px;
+ }
+ .seeMyWorkButton{
+	
  }
 
 /* Basic */
@@ -2317,3 +2319,14 @@ input, select, textarea {
 			}
 
 		}
+
+		a:link { text-decoration: none; }
+
+
+		a:visited { text-decoration: none; }
+		
+		
+		a:hover { text-decoration: none; }
+		
+		
+		a:active { text-decoration: none; }
