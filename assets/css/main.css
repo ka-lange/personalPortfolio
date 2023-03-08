@@ -1383,7 +1383,7 @@ input, select, textarea {
 	font-weight: bold;
   }
   .workOverlayLink {
-	border: 1px solid #45798b;
+	
 	color: white;
 	text-decoration: none;
 	background-color: #45798b;
@@ -1391,6 +1391,16 @@ input, select, textarea {
 	padding: 10px;
 	margin: 5px;
   }
+.codeButton{
+	
+	color: white;
+	text-decoration: none;
+	background-color: #45798b;
+	font-size: 20px;
+	padding: 10px;
+	margin: 5px;
+}
+
 .contactSection{
 	display: flex;
   }
