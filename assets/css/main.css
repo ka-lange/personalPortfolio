@@ -1390,6 +1390,7 @@ input, select, textarea {
 	font-size: 20px;
 	padding: 10px;
 	margin: 5px;
+	cursor: pointer;
   }
 .codeButton{
 	
@@ -1416,9 +1417,11 @@ input, select, textarea {
 	margin: 0 5px;
 	padding: 0 5px;
  }
- .seeMyWorkButton{
-	
- }
+.contactStuff{
+	display: flex;
+	justify-content: space-between;
+
+}
 
 /* Basic */
 
