@@ -12,6 +12,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  background-color: #EAFCFF;
 }
 
 a {
@@ -78,7 +79,7 @@ h6 {
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
-  padding: 0 15px;
+  padding: 30px 15px;
   background: #1E455D;
   overflow-y: auto;
 }
@@ -831,7 +832,10 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 130px;
+  /* padding-bottom: 130px; */
+}
+section.contact{
+    padding-bottom: 0px;
 }
 
 .contact .info {
@@ -843,11 +847,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #30897F;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #eaeaea;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -894,14 +898,14 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #30897F;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #30897F;
   color: #fff;
 }
 
@@ -1067,9 +1071,9 @@ section {
   font-size: 14px;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 100%;
   z-index: 9999;
-  background: #040b14;
+  background: #1E455D;
 }
 
 #footer .copyright {
