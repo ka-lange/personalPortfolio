@@ -45,7 +45,8 @@
                 <!-- <img src="../images/me.png" alt="" class="img-fluid rounded-circle"> -->
                 <h1 class="text-light"><a href="index.html">Karissa</a></h1>
                 <h1 class="text-light"><a href="index.html">Lange</a></h1>
-                <img src="/images/me.png" class="img-fluid " alt="">
+                
+                <!-- <img src="/IMG_3525.jpg" class="img-fluid my-4" alt=""> -->
                 <div class="social-links mt-3 text-center">
                     <a href="https://twitter.com/kl2662" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
                     <a href="https://www.linkedin.com/in/ka-lange/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
@@ -64,23 +65,27 @@
                     <li><a href="#mediaProjects" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>media projects</span></a></li>
                     <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>contact</span></a></li>
                 </ul>
+                
             </nav><!-- .nav-menu -->
+            
         </div>
+        
     </header><!-- End Header -->
 
     <main id="main">
         <!-- ======= Hero Section ======= -->
-        <section id="hero" class="px-5 d-flex flex-column justify-content-center align-items-center">
-            <div class="hero-container" data-aos="fade-in">
-                <h1>Karissa Lange</h1>
-                <hr data-aos="zoom-in"/>
-            </div>
+        <section id="hero" class=" d-flex flex-column justify-content-center align-items-center">
+            
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4" data-aos="fade-right">
-                        
+                        <img class="img-fluid" src="/IMG_3525.jpg">
                     </div>
                     <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                        <div class="hero-container" data-aos="fade-in">
+                            <h1 class="pt-1">Karissa Lange</h1>
+                            <hr data-aos="zoom-in"/>
+                        </div>
                         <h3>Web Developer</h3>
                         <p class="fst-italic">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -218,19 +223,20 @@
                     <div class="row">
                         <div class="col col-lg-6">
                             <img src="/images/TTBCHomepage.png" class="" height="auto" width="100%" alt="">
+                            <div class="mt-4 d-flex flex-wrap">
+                                <span class="project-tag m-1">HTML</span>
+                                <span class="project-tag m-1">CSS</span>
+                                <span class="project-tag m-1">JavaScript</span>
+                                <span class="project-tag m-1">Bootstrap CSS</span>
+                            </div>
                         </div>
                         <div class="col col-lg-6">
                             <h2>Tipsy Treefrog Brewing Company</h2>
-                            <div class="mt-4">
-                                <span class="project-tag">HTML</span>
-                                <span class="project-tag">CSS</span>
-                                <span class="project-tag">JavaScript</span>
-                                <span class="project-tag">Bootstrap CSS</span>
-                            </div>
+                            
                             <p class="my-4">Description of the project and what was used</p>
-                            <div >
-                                <a href="https://github.com/ka-lange/ttbc" target="_blank"><i class="bi bi-github"></i></a>
-                                <a href="https://tipsytreefrog.netlify.app/" target="_blank">TTBC Website<i class="bi bi-arrow-up-right"></i></a>
+                            <div class="pt-2">
+                                <a href="https://github.com/ka-lange/ttbc" target="_blank"><button class="btn btn-primary"><i class="bi bi-github"></i></button> </a>
+                                <a><button class="btn btn-primary">Website<i class="bi bi-arrow-up-right"></i></button></a>
                             </div> 
                         </div>
                     </div>
@@ -244,12 +250,12 @@
                         </div>
                         <div class="col col-lg-6">
                             <h2>Pothos</h2>
-                            <div class="mt-4">
-                                <span class="project-tag">JavaScript</span>
-                                <span class="project-tag">Bootstrap CSS</span>
-                                <span class="project-tag">Node</span>
-                                <span class="project-tag">Express</span>
-                                <span class="project-tag">MongoDB</span>
+                            <div class="mt-4 d-flex flex-wrap">
+                                <span class="project-tag m-1">JavaScript</span>
+                                <span class="project-tag m-1">Bootstrap CSS</span>
+                                <span class="project-tag m-1">Node</span>
+                                <span class="project-tag m-1">Express</span>
+                                <span class="project-tag m-1">MongoDB</span>
                             </div>
                             <p class="my-4">Description of the project and what was used</p>
                             <div >
@@ -267,10 +273,10 @@
                         </div>
                         <div class="col col-lg-6">
                             <h2>Happy Weather</h2>
-                            <div class="mt-4">
-                                <span class="project-tag">API</span>
-                                <span class="project-tag">JavaScript</span>
-                                <span class="project-tag">Tailwind CSS</span>
+                            <div class="mt-4 d-flex flex-wrap">
+                                <span class="project-tag m-1">API</span>
+                                <span class="project-tag m-1">JavaScript</span>
+                                <span class="project-tag m-1">Tailwind CSS</span>
                             </div>
                             <p class="my-4">Description of the project and what was used</p>
                             <div >
@@ -288,14 +294,14 @@
                         </div>
                         <div class="col col-lg-6">
                             <h2>Make or Break Habit Tracker</h2>
-                            <div class="mt-4">
-                                <span class="project-tag">JavaScript</span>
-                                <span class="project-tag">EJS</span>
+                            <div class="mt-4 d-flex flex-wrap">
+                                <span class="project-tag m-1">JavaScript</span>
+                                <span class="project-tag m-1">EJS</span>
                             </div>
                             <p class="my-4">Description of the project and what was used</p>
                             <div>
                                 <a href="https://github.com/ka-lange/habit-tracker" target="_blank"><i class="bi bi-github"></i></a>
-                                <a href="https://makeorbreakhabit.cyclic.app/" target="_blank">Make OR Break Habit Tracker<i class="bi bi-arrow-up-right"></i></a>
+                                <a href="https://makeorbreakhabit.cyclic.app/" target="_blank">Make or Break Habit Tracker<i class="bi bi-arrow-up-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -331,7 +337,7 @@
   
 
   
-        <div class="row portfolio-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" style="position: relative; height: 3773.25px;">
+        <div class="row g-5 portfolio-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" style="position: relative; height: 3773.25px;">
         <!-- CBK Item -->
             <div class="col-lg-4 col-md-6 portfolio-item filter-social" style="position: absolute; left: 0px; top: 0px;">
                 <div class="portfolio-wrap">
@@ -358,7 +364,7 @@
   
             
   
-            <div class="col-lg-4 col-md-6 portfolio-item filter-social" style="position: absolute; left: 0px; top: 1257.75px;">
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-social" style="position: absolute; left: 0px; top: 1257.75px;">
               <div class="portfolio-wrap">
                 <img src="/images/ssblack.png" class="img-fluid" alt="">
                 <div class="portfolio-links">
@@ -368,7 +374,7 @@
               </div>
             </div>
   
-            <div class="col-lg-4 col-md-6 portfolio-item filter-video" style="position: absolute; left: 0px; top: 2096.25px;">
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-video" style="position: absolute; left: 0px; top: 2096.25px;">
               <div class="portfolio-wrap">
                 <div class="ratio ratio-1x1">
                     <iframe src="https://www.youtube.com/embed/frGAmGnG-F0" title="YouTube video" allowfullscreen></iframe>
@@ -380,7 +386,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-video" style="position: absolute; left: 0px; top: 838.5px;">
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-video" style="position: absolute; left: 0px; top: 838.5px;">
                 <div class="portfolio-wrap">
                   <div class="ratio ratio-1x1">
                       <iframe src="https://www.youtube.com/embed/qqX2XKHP-k4" title="YouTube video" allowfullscreen></iframe>
