@@ -221,10 +221,10 @@ h6 {
   cursor: pointer;
 }
 
-.mobile-nav-toggle:hover{
+/* .mobile-nav-toggle:hover{
   background-color: #1e455d;
   color: #EAFCFF;
-}
+} */
 
 .mobile-nav-active {
   overflow: hidden;
@@ -259,9 +259,6 @@ h6 {
   z-index: 2;
   min-width: 300px;
 }
-#hero .container {
-    padding: 50px 100px;
-}
 
 
 #hero h1 {
@@ -295,14 +292,20 @@ h6 {
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 50px;
-    line-height: 36px;
+    line-height: 50px;
   }
 
   #hero h2 {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 24px;
     margin-bottom: 30px;
   }
+  #hero p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  
 }
 
 #hero .social-links i{
@@ -336,6 +339,7 @@ section {
   overflow: hidden;
 }
 
+
 .section-bg {
   background: #EAFCFF;
 }
@@ -365,7 +369,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------
@@ -426,7 +430,7 @@ section {
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
-  padding: 10px 15px 8px 15px;
+  padding: 10px 7px 8px 7px;
   font-size: 16px;
   font-weight: 600;
   line-height: 1;
@@ -640,7 +644,18 @@ section {
 .project-p{
     font-size: 18px;
 }
-
+@media (max-width: 768px) { 
+    .services .icon{
+        width: 35px;
+        height: 35px;
+    }
+    .services .title {
+        margin-left: 45px;
+      }
+      .services .description {
+        margin-left: 45px;
+      }
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -683,6 +698,7 @@ section {
 
 .contact .info .email p {
   padding-top: 5px;
+  font-size: 16px;
 }
 
 .contact .info .social-links {
