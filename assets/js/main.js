@@ -1,3 +1,26 @@
+// CUSTOM JS //
+
+const sumbitText = document.getElementById('submitText')
+const loadSpinner = document.getElementById('loadSpinner')
+const contactForm = document.getElementById('contactForm')
+const nameField = document.getElementById('name')
+const emailField = document.getElementById('email')
+
+
+function checkValidation(){
+    contactForm.classList.add('was-validated')
+
+    // if(
+    //     nameField.classList.contains('is-valid') &&
+    //     emailField.classList.contains('is-valid')
+    //     ){
+    //       sumbitText.style.display='none';
+    //       loadSpinner.style.removeProperty('display');
+    //     }
+
+}
+
+
 /**
 * Template Name: iPortfolio
 * Updated: Mar 10 2023 with Bootstrap v5.2.3

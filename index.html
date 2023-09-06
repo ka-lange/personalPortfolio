@@ -153,7 +153,7 @@
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-lg-6">
                     <div class="d-flex flex-column justify-content-center align-items-center">
-                        <img src="/images/PothosHomepage.png" class="mt-5 img-fluid rounded" alt="">
+                        <a href="https://pothosplants.cyclic.cloud/" target="_blank"><img src="/images/PothosHomepage.png" class="mt-5 img-fluid rounded" alt=""></a>
                         <a class="mt-3" href="https://pothosplants.cyclic.cloud/" target="_blank">Pothos Website<i class="bi bi-arrow-up-right"></i></a>
                     </div>
                 </div>
@@ -178,7 +178,7 @@
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-lg-6">
                     <div class="d-flex flex-column justify-content-center align-items-center">
-                        <img src="/images/TTBCHomepage.png" class="mt-5 img-fluid rounded" alt="">
+                        <a href="https://tipsytreefrog.netlify.app/" target="_blank"><img src="/images/TTBCHomepage.png" class="mt-5 img-fluid rounded" alt=""></a>
                         <a class="mt-3" href="https://tipsytreefrog.netlify.app/" target="_blank">TTBC Website<i class="bi bi-arrow-up-right"></i></a>
                     </div>
                 </div>
@@ -202,7 +202,7 @@
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-lg-6">
                     <div class="d-flex flex-column justify-content-center align-items-center">
-                        <img src="/images/happyWeatherHomepage.png" class="mt-5 img-fluid rounded" alt="">
+                        <a href="https://happyweather.cyclic.cloud/" target="_blank"><img src="/images/happyWeatherHomepage.png" class="mt-5 img-fluid rounded" alt=""></a>
                         <a class="mt-3" href="https://happyweather.cyclic.cloud/" target="_blank">Happy Weather App<i class="bi bi-arrow-up-right"></i></a>
                     </div>
                 </div>
@@ -225,7 +225,7 @@
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-lg-6">
                     <div class="d-flex flex-column justify-content-center align-items-center">
-                        <img src="/images/makeorbreakHomepage.png" class="mt-5 img-fluid rounded" alt="">
+                        <a href="https://makeorbreakhabit.cyclic.app/" target="_blank"><img src="/images/makeorbreakHomepage.png" class="mt-5 img-fluid rounded" alt=""></a>
                         <a class="mt-3" href="https://makeorbreakhabit.cyclic.app/" target="_blank">Make or Break Habit Tracker<i class="bi bi-arrow-up-right"></i></a>
                     </div>
                 </div>
@@ -321,8 +321,8 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-video">
                     <div class="portfolio-wrap">
                         <img src="/images/lncResourceBee.png" class="img-fluid rounded" alt="LNC: A Resource Worth Protecting">
-                        <div class="portfolio-links">
-                            <a data-bs-toggle="modal" data-bs-target="#lncResourceModal" ><i class="bx bx-plus"></i></a> 
+                        <div class="portfolio-links portfolio-links-100">
+                            <!-- <a data-bs-toggle="modal" data-bs-target="#lncResourceModal" ><i class="bx bx-plus"></i></a>  -->
                             <a href="https://youtu.be/frGAmGnG-F0?si=K6VppZ1F1CDT2OZ9" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
@@ -331,8 +331,8 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-video">
                     <div class="portfolio-wrap">
                         <img src="/images/lncSFS.png" class="img-fluid rounded" alt="Swallowtail Forest School">
-                        <div class="portfolio-links">
-                            <a data-bs-toggle="modal" data-bs-target="#sfsVideoModal" ><i class="bx bx-plus"></i></a> 
+                        <div class="portfolio-links portfolio-links-100">
+                            <!-- <a data-bs-toggle="modal" data-bs-target="#sfsVideoModal" ><i class="bx bx-plus"></i></a>  -->
                             <a href="https://youtu.be/qqX2XKHP-k4?si=QO8u4z_3Su21dMSQ" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
@@ -341,8 +341,8 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-video">
                     <div class="portfolio-wrap">
                         <img src="/images/balcony.png" class="img-fluid rounded" alt="Balcony Gymanstics">
-                        <div class="portfolio-links">
-                            <a data-bs-toggle="modal" data-bs-target="#balconyModal"  ><i class="bx bx-plus"></i></a> 
+                        <div class="portfolio-links portfolio-links-100">
+                            <!-- <a data-bs-toggle="modal" data-bs-target="#balconyModal"  ><i class="bx bx-plus"></i></a>  -->
                             <a href="https://youtu.be/7qiRU4K32Tg?si=kKPY7nSPhaMXGRpS" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
@@ -384,7 +384,7 @@
 
                 <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
                     
-                    <form action="https://formsubmit.co/aac639afd53941bb6a96c1abb9e6ca40" method="POST" class="php-email-form">
+                    <form id="contactForm" action="https://formsubmit.co/aac639afd53941bb6a96c1abb9e6ca40" method="POST" class="php-email-form">
                         <h4 class="py-3">I'd love to work with you!</h4>
                         <h5 class="py-3">Message me to see how we can work together and bring your web projects to life:</h5>
                         <hr>
@@ -392,19 +392,31 @@
                             <div class="form-group col-md-6">
                                 <label for="name">Your Name</label>
                                 <input type="text" name="name" class="form-control" id="name" required>
+                                <div class="invalid-feedback">
+                                    Please enter your name.
+                                </div>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="name">Your Email</label>
                                 <input type="email" class="form-control" name="email" id="email" required>
+                                <div class="invalid-feedback">
+                                    Please enter a valid email.
+                                </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="name">Subject</label>
                             <input type="text" class="form-control" name="subject" id="subject" required>
+                            <div class="invalid-feedback">
+                                Please add a subject.
+                            </div>
                         </div>
                         <div class="form-group">
                             <label for="name">Message</label>
                             <textarea class="form-control" name="message" rows="10" required></textarea>
+                            <div class="invalid-feedback">
+                                Please enter a message.
+                            </div>
                         </div>
                         <!-- <div class="my-3">
                             <div class="loading">Loading</div>
@@ -412,7 +424,12 @@
                             <div class="sent-message">Your message has been sent. Thank you!</div>
                         </div> -->
                         <input type="hidden" name="_next" value="https://karissa-lange.netlify.app/formConfirmation.html">
-                        <div class="text-center"><button type="submit">Send Message</button></div>
+                        <div class="text-center">
+                            <button onclick="checkValidation()" class="text-center" type="submit">
+                                <div id="submitText">Send Message</div>
+                                <div id="loadSpinner" class="spinner-border" role="status" style="display:none"><span class="visually-hidden">Loading...</span></div>
+                            </button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -422,7 +439,7 @@
     <footer id="footer">
         <div class="container text-center">
             <div class="social-links mt-4 pt-2 text-center">
-                <p class="">&copy 2023 Karissa Lange</p>
+                <p class="">2023 Karissa Lange</p>
                 <a href="https://twitter.com/kl2662" class="twitter mx-2" target="_blank"><i class="bx bxl-twitter fs-4"></i></a>
                 <a href="https://www.linkedin.com/in/ka-lange/" class="linkedin mx-2" target="_blank"><i class="bx bxl-linkedin fs-4"></i></a>
                 <a href="https://github.com/ka-lange" class="github mx-2" target="_blank"><i class="bx bxl-github fs-4"></i></a>
@@ -627,7 +644,7 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
