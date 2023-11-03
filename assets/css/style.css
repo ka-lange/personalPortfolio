@@ -908,3 +908,7 @@ section {
 #footer .copyright {
   text-align: center;
 }
+.border-blue{
+    border: 3px solid #1e455d;
+    
+}
