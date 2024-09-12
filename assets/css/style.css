@@ -47,7 +47,8 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #A9A1B6;
+  background: #18151E;
+  border: 1px solid #A9A1B6;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -212,8 +213,9 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #A9A1B6;
-  color: #18151E;
+  background-color: #18151E;
+  border: 1px solid #A9A1B6;
+  color: #A9A1B6;
   width: 40px;
   height: 40px;
   display: inline-flex;
@@ -704,8 +706,7 @@ section {
 }
 @media (max-width: 768px) { 
     .services .icon{
-        width: 35px;
-        height: 35px;
+        
     }
     .services .title {
         margin-left: 45px;
